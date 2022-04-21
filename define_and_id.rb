@@ -6,18 +6,19 @@
 # No arguments are passed; upcase has one clear job which is to capitalize all letters that exist in the String
 # The return value is "HI"
 "Hello World".upcase
-
+#.upcase attached to the string tells it to capitalize all letters ie "HELLO WORLD".
 
 "Hello World".include?("Hello")
-
+#.include? is asking if the attached string includes a phrase. "Hello World" does include "Hello."
 
 "Hello World".end_with?("Hello")
-
+#.end_with? asks if the end of the string/variable in which it is attached matches the end with whatever is then captioned. "Hello World" does not end with "Hello"
 
 "Hello World".end_with?("rld")
-
+#This is true however.
 
 "Hello World".length
-
+#.length measures the string length returning a value of 13 including space and quotations.
 
 "Hello World".size
+#.size This seems to measure the same as .length but am wondering if one measures number of elements as some characters and umlauts take up half space.

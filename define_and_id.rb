@@ -18,7 +18,8 @@
 #This is true however.
 
 "Hello World".length
-#.length measures the string length returning a value of 13 including space and quotations.
+#.length measures the string length returning a value of 11 including space.
 
 "Hello World".size
-#.size This seems to measure the same as .length but am wondering if one measures number of elements as some characters and umlauts take up half space.
+#.size This seems to measure the same as .length but am wondering if one measures
+# number of elements as some characters and umlauts take up half space.

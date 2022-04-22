@@ -4,8 +4,9 @@
 def greeting
   puts "Go Away"
 end
-# don't forget method call
+    # don't forget method call
 greeting
+
 # What is the return value of your method?
 # => Go Away
 # How many arguments did you pass your method?

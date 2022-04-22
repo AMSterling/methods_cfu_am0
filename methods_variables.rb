@@ -28,9 +28,20 @@ puts name.length
 user_name = "coco_11am"
 last_login = "12/09/2021"
 
-# 1: In the Ruby Docs for String methods (https://ruby-doc.org/core-3.1.0/String.html), find 4 methods you have not yet used and call them on one of the variables above. Between reading the documentation and reading the output from calling the methods, make sense of what they do.
+# 1: In the Ruby Docs for String methods (https://ruby-doc.org/core-3.1.0/String.html), find 4 methods you have not yet used and
+   # call them on one of the variables above. Between reading the documentation and reading the output from calling the methods,
+   # make sense of what they do.
   # Write the methods out on the lines below, with an explanation in your own words of how they work.
+puts user_name.casecmp
+puts last_login.start_with?(12)
+puts user_name.empty?
+puts user_name.bytesize
 
+#I'm actually not sure why I'm not getting any return out of this and I feel it may be
+#too late to ask anyone. I feel I won't get understading of it tonight and want to circle
+#tomorrow.
 
-
-# 2: Do some research (either testing out with your own code or Googling) to build an understanding of what the `!` does, when at the end of a method name. Show your understading by providing an example and writing an explanation.
+# 2: Do some research (either testing out with your own code or Googling) to build an understanding of what
+  # the `!` does, when at the end of a method name. Show your understading by providing an example and writing an explanation.
+  #From the website linked; I notice any methods that end with ! say return self. Self referring to default receiver so I am thinking
+  #it can be some sort of override.

@@ -53,6 +53,6 @@ full_name("Anna ", "Marie ", "Sterling ")
 # What is the return value of your method?
 # => It is so nice to work with you Anna Marie Sterling
 # How many arguments did you pass your method?
-#1
+# 3 (previously marked 1)
 # What data type was your argument(s)?
 #String

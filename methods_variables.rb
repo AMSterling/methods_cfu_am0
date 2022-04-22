@@ -32,8 +32,8 @@ last_login = "12/09/2021"
    # call them on one of the variables above. Between reading the documentation and reading the output from calling the methods,
    # make sense of what they do.
   # Write the methods out on the lines below, with an explanation in your own words of how they work.
-puts user_name.casecmp
-puts last_login.start_with?(12)
+puts user_name.start_with? "co"
+puts last_login.replace "01/01/2022"
 puts user_name.empty?
 puts user_name.bytesize
 

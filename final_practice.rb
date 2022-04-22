@@ -2,12 +2,12 @@
 #Worked with Bryce
 # 1: Write a method named greeting that prints out a general greeting to someone
 def greeting
-  puts "Hey"
+  puts "Go Away"
 end
-
+# don't forget method call
 greeting
 # What is the return value of your method?
-# => Hey
+# => Go Away
 # How many arguments did you pass your method?
 #0
 

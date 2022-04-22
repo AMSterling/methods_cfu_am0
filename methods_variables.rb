@@ -39,7 +39,9 @@ puts user_name.bytesize
 
 #I'm actually not sure why I'm not getting any return out of this and I feel it may be
 #too late to ask anyone. I feel I won't get understading of it tonight and want to circle
-#tomorrow.
+#tomorrow. UPDATE: Did work with Allison on these in our do as you please pairing and
+# ran alternative methods. .casecmp did't have anything to compare it to. May be a little more
+# advanced application than I am attempting to work with at this time.
 
 # 2: Do some research (either testing out with your own code or Googling) to build an understanding of what
   # the `!` does, when at the end of a method name. Show your understading by providing an example and writing an explanation.

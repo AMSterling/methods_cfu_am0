@@ -8,7 +8,7 @@ end
 greeting
 
 # What is the return value of your method?
-# => Go Away
+# => greeting
 # How many arguments did you pass your method?
 #0
 
@@ -20,7 +20,7 @@ end
 
 custom_greeting("Bryce")
 # What is the return value of your method?
-# => Hello Bryce
+# => nil
 # How many arguments did you pass your method?
 #1
 # What data type was your argument(s)?
@@ -36,7 +36,7 @@ end
 
 square(9)
 # What is the return value of your method?
-# => 81
+# => nil
 # How many arguments did you pass your method?
 # 1
 # What data type was your argument(s)?
@@ -48,10 +48,10 @@ square(9)
 def full_name (first, middle, last)
   puts "It is so nice to work with you " + first + middle + last
 end
-
-full_name("Anna ", "Marie ", "Sterling ")
+#method call
+full_name("Anna ", "Marie ", "Sterling")
 # What is the return value of your method?
-# => It is so nice to work with you Anna Marie Sterling
+# => nil
 # How many arguments did you pass your method?
 # 3 (previously marked 1)
 # What data type was your argument(s)?
